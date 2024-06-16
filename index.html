@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1>PORTFOLIO </h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-section" id="home">
+        <div class="text">
+            <h1>Hello</h1>
+            <h2>I'm <span>Arun Patwa</span></h2>
+            <h3> Frontend Web Developer</h3>
+            <p>Proficient in HTML, CSS, JavaScript, and modern frontend frameworks like React.js and Bootstrap. i am
+                skilled in translating design concept into responsive and interactive web experiences </p>
+            <button class="btn"><a href="assets/ArunResume.docx" download>Download Resume</a></button>
+            <a href="https://github.com/ArunPatwa26"><img src="assets/github.jpg" alt="">GitHub</a>
+        </div>
+        <div class="image"><img src="assets/myimage.jpg" alt=""></div>
+    </div>
+    <div class="about-section" id="about">
+        <div class="about-image">
+            <img src="assets/aboutimage.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                As a front-end web developer, I specialize in bringing digital designs to life. My expertise lies in
+                HTML, CSS, and JavaScript, which I use to create responsive, user-friendly interfaces. I work with
+                frameworks like React and Angular to build dynamic and interactive web applications. My role involves
+                collaborating closely with designers to ensure that their visions are accurately translated into
+                functional websites. I pay meticulous attention to detail, optimizing performance and ensuring
+                cross-browser compatibility. Constantly learning and adapting to new technologies, I strive to deliver
+                engaging and seamless user experiences that leave a lasting impression.</p>
+        </div>
+    </div>
+
+    <div class="skill-section" id="skill">
+        <h1> Skills</h1>
+        <div class="box box1">
+            <div class="one one1"><img src="assets/html.png" alt=""></div>
+            <div class="one one2"><img src="assets/css.png" alt=""></div>
+            <div class="one one3"><img src="assets/js.png" alt=""></div>
+        </div>
+        <div class="box box2">
+            <div class="one one4"><img src="assets/reactjs.png" alt=""></div>
+            <div class="one one5"><img src="assets/github.png" alt=""></div>
+        </div>
+    </div>
+    <div class="project-section" id="project">
+        <h1>Projects</h1>
+        <div class="box box1">
+            <div class="one b1"><a href="files/Calculator/calculator.html" target="_blank"><img src="assets/calculator.png"
+                        alt="">
+                    <h3>Calculator</h3>
+                    <p>Html, Css, JavaScript</p>
+                </a>
+            </div>
+            <div class="one b2 "><a href="files/todolist.html" target="_blank"><img src="assets/todolist.png" alt="">
+                    <h3>Todo List</h3>
+                    <p>Html, Css, JavaScript</p>
+                </a>
+            </div>
+            <div class="one b3"><a href="files/ResumeMaker.html" target="_blank"><img src="assets/resumemaker.png"
+                        alt="">
+                    <h3>Resume Maker</h3>
+                    <p>Html, Css, JavaScript</p>
+                </a>
+            </div>
+        </div>
+        <div class="box box2">
+            <div class="one b4"><a href="files/netflix_folder/Netflix.html" target="_blank"><img src="assets/netflixclone.png"
+                        alt="">
+                    <h3>Netflix Clone</h3>
+                    <p>Html, Css, JavaScript</p>
+                </a>
+            </div>
+            <div class="one b5"><a href="LANDING PAGE (task 1)/index.html" target="_blank"><img src="assets/burgerwebsite.png" alt="">
+                    <h3>Burger Website</h3>
+                    <p>Html, Css</p>
+                </a>
+            </div>
+            <div class="one b6"><a href="" target="_blank"><a href=""><img src="assets/textconverter.png" alt=""></a>
+                    <h3>Text Editor</h3>
+                    <p>React.js</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="contact-section" id="contact">
+        <h1>Contact Me</h1>
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <div class="form" >
+                <input type="hidden" name="access_key" value="393550ec-41ad-4745-a6c9-5b2d3ff97ff6">
+                <input type="text" name="Name" placeholder="Your Name" id="name" required>
+                <input type="email" name="Email" placeholder="Your Email" id="email" required>
+                <input type="text" name="Subject" placeholder="Subject" id="subject" required>
+                <input type="message" name="Message" placeholder=" Message" id="message" required>
+                <button onclick="send()">Send</button>
+            </div>
+            </form>
+    </div>
+    <div class="footer">
+        <div class="footer-f1">
+            <h3>Portfolio</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, molestiae porro natus maiores vel ducimus
+                ab in nostrum aspernatur repudiandae incidunt odit velit, ipsa ut!</p>
+        </div>
+        <div class="footer-f2">
+            <h3>It's All About Website</h3>
+            <p>Home</p>
+            <p>About Me</p>
+            <p>Projects</p>
+            <p>Skills</p>
+            <p>Contact</p>
+        </div>
+        <div class="footer-f3">
+            <h3>Follow Me!</h3>
+            <div class="followlink">
+                <a href="https://www.linkedin.com/in/arun-patwa-581136278" target="_blank"><img src="assets/linkdedin.png" alt=""></a>
+                <a href="https://github.com/ArunPatwa26" target="_blank"><img src="assets/github.jpg" alt=""></a>
+                <a href="" target="_blank"><img src="assets/instagram.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        function send(){
+            console.log("hello")
+            let name = document.getElementById("name").value
+            let email = document.getElementById("email").value
+            let subject = document.getElementById("subject").value
+            let message = document.getElementById("message").value
+            if (!name || !email || !subject || !message) {
+                alert("Please Fill the form first")
+            } else {
+                alert("From Submited Successfully")
+            }
+               
+        }
+    </script>
+
+</body>
+
+</html>
